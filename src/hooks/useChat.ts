@@ -237,11 +237,8 @@ export function useChat(syncClient: SyncClient | undefined, user: User) {
       if (channelItem?.list) {
         setMessagesLoading(true);
         channelItem.list
-          .getItems({
-            // Grab from the end of the list so users see latest messages on first load. Needs to be 'desc' order to work
-            from: channelItem.list.lastEventId,
-            order: 'desc',
-          })
+          // Grab in descending order so that users can see latest messages on first load.
+          .getItems({ order: 'desc' })
           .then(({ items }) => {
             const initialMessages = items
               .reduce((acc: Message[], item) => {
