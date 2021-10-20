@@ -47,6 +47,7 @@ export function ChatMessages({
               author={msg.userName}
               content={msg.text}
               isSelf={msg.userName === user.name}
+              isMod={msg.isUserMod}
             />
           ))
         )}
