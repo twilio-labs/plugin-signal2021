@@ -1,0 +1,465 @@
+{
+  "hashes": {
+    "6f7d66b": {
+      "name": "SIGNAL Developer Spotlight Session",
+      "description": "Find all relevant resources from the session",
+      "items": [
+        {
+          "type": "browser",
+          "url": "https://twil.io/signal2021-devs"
+        }
+      ]
+    },
+    "b380e61": {
+      "name": "Developer Session: Prototyping",
+      "description": "Show relevant information from the Prototyping section of the Developer Spotlight Session",
+      "items": [
+        {
+          "type": "browser",
+          "url": "https://www.twilio.com/code-exchange"
+        },
+        {
+          "type": "browser",
+          "url": "https://www.twilio.com/code-exchange?q=&f=serverless"
+        },
+        {
+          "type": "browser",
+          "url": "https://www.twilio.com/code-exchange/verified-broadcast-sms"
+        },
+        {
+          "type": "browser",
+          "url": "https://www.twilio.com/docs/runtime/functions/headers-and-cookies"
+        }
+      ]
+    },
+    "051c794": {
+      "name": "Developer Session: Local Development",
+      "description": "Show relevant information from the Local Development section of the Developer Spotlight Session",
+      "items": [
+        {
+          "type": "functions-template",
+          "repo": "verified-broadcast"
+        },
+        {
+          "type": "browser",
+          "url": "https://www.twilio.com/docs/labs/serverless-toolkit"
+        },
+        {
+          "type": "browser",
+          "url": "https://www.twilio.com/docs/labs/serverless-toolkit/guides/front-end-framework-serverless"
+        },
+        {
+          "type": "browser",
+          "url": "https://paste.twilio.design/getting-started/engineering"
+        }
+      ]
+    },
+    "7b42975": {
+      "name": "Developer Session: CI/CD",
+      "description": "Show relevant information from the CI/CD and DevOps section of the Developer Spotlight Session",
+      "items": [
+        {
+          "type": "github",
+          "repo": "twilio/signal2021-devs",
+          "branch": "devops"
+        },
+        {
+          "type": "browser",
+          "url": "https://www.twilio.com/docs/openapi/mock-api-generation-with-twilio-openapi-spec"
+        },
+        {
+          "type": "browser",
+          "url": "https://www.twilio.com/docs/labs/serverless-toolkit/guides/continous-deployment"
+        },
+        {
+          "type": "browser",
+          "url": "https://www.twilio.com/docs/labs/serverless-toolkit/guides/terraform"
+        }
+      ]
+    },
+    "797e820": {
+      "name": "Developer Session: Monitoring/Insights",
+      "description": "Show relevant information from the Monitoring section of the Developer Spotlight Session",
+      "items": [
+        {
+          "type": "github",
+          "repo": "twilio/signal2021-devs",
+          "branch": "monitoring"
+        },
+        {
+          "type": "browser",
+          "url": "https://www.twilio.com/docs/events"
+        },
+        {
+          "type": "browser",
+          "url": "https://segment.com/docs/connections/sources/catalog/libraries/website/javascript/"
+        },
+        {
+          "type": "browser",
+          "url": "https://segment.com/docs/connections/sources/catalog/libraries/server/node/"
+        }
+      ]
+    },
+    "236261c": {
+      "name": "Twilio Go Library",
+      "description": "Learn more about Twilio's Helper Library for Go",
+      "items": [
+        {
+          "type": "browser",
+          "url": "https://github.com/twilio/twilio-go"
+        }
+      ]
+    },
+    "f10ab46": {
+      "name": "Twilio Microvisor Pilot Docs",
+      "description": "Request access to the Pilot Docs for Twilio Microvisor to start designing embedded systems.",
+      "items": [
+        {
+          "type": "browser",
+          "url": "https://www.twilio.com/blog/microvisor-pilot-documentation-2021"
+        }
+      ]
+    },
+    "1754b6b": {
+      "name": "Japanese Twilio Docs",
+      "description": "Access our Twilio Docs in Japanese",
+      "items": [
+        {
+          "type": "browser",
+          "url": "https://www.twilio.com/ja/docs"
+        }
+      ]
+    },
+    "afad3fd": {
+      "name": "French Twilio Docs",
+      "description": "Access our Twilio Docs in French",
+      "items": [
+        {
+          "type": "browser",
+          "url": "https://www.twilio.com/fr/docs"
+        }
+      ]
+    },
+    "a4854ba": {
+      "name": "German Twilio Docs",
+      "description": "Access our Twilio Docs in German",
+      "items": [
+        {
+          "type": "browser",
+          "url": "https://www.twilio.com/de/docs"
+        }
+      ]
+    },
+    "8509081": {
+      "name": "Twilio Video Insights",
+      "description": "Video usage and quality data at your fingertips",
+      "items": [
+        {
+          "type": "browser",
+          "url": "https://www.twilio.com/docs/video/troubleshooting/insights"
+        }
+      ]
+    },
+    "a230e28": {
+      "name": "Verified Broadcast",
+      "description": "Set up a local version of the Verified Broadcast template",
+      "items": [
+        {
+          "type": "functions-template",
+          "repo": "verified-broadcast"
+        }
+      ]
+    },
+    "69c6218": {
+      "name": "Quick Deploy: Verified Broadcast",
+      "description": "Deploy a broadcast app with verified subscriptions into your Twilio account",
+      "items": [
+        {
+          "type": "browser",
+          "url": "https://www.twilio.com/code-exchange/verified-broadcast-sms?q=signal2021"
+        }
+      ]
+    },
+    "4966b05": {
+      "name": "Talon 1 Submission",
+      "description": "Contribute to this project to send your code to the edge of space!",
+      "items": [
+        {
+          "type": "github",
+          "repo": "twilioquest/talon",
+          "branch": "main"
+        }
+      ]
+    },
+    "57221bf": {
+      "name": "TwilioQuest Extension",
+      "description": "Create your own content for TwilioQuest by building a custom extension",
+      "items": [
+        {
+          "type": "github",
+          "repo": "twilioquest/twilioquest-extension-template",
+          "branch": "main"
+        }
+      ]
+    },
+    "ed35f65": {
+        "name": "Superclass",
+        "description": "Find all information about Superclass",
+        "items": [{
+                "type": "browser",
+                "url": "https://twil.io/sc-signal2021"
+            },
+            {
+                "type": "browser",
+                "url": "https://twil.io/sc-agenda-signal2021"
+            }
+        ]
+    },
+    "27e61f3": {
+        "name": "Superclass Kickstart: Introduction to APIs and Webhooks",
+        "description": "Find all relevant resources from the workshop",
+        "items": [{
+                "type": "browser",
+                "url": "https://signal.twilio.com/2021/sessions/664983"
+            },
+            {
+                "type": "browser",
+                "url": "https://github.com/TwilioDevEd/kickstart-apis-and-webhooks-workshop"
+            },
+            {
+                "type": "browser",
+                "url": "https://en.wikipedia.org/wiki/Representational_state_transfer#Architectural_constraints"
+            },
+            {
+                "type": "browser",
+                "url": "https://www.twilio.com/docs/usage/webhooks/getting-started-twilio-webhooks"
+            }
+        ]
+    },
+    "3ee13aa": {
+        "name": "Superclass Kickstart: Serverless Twilio Tools",
+        "description": "Find all relevant resources from the workshop",
+        "items": [{
+                "type": "browser",
+                "url": "https://signal.twilio.com/2021/sessions/664985"
+            },
+            {
+                "type": "browser",
+                "url": "https://www.twilio.com/docs/runtime/tutorials/twiml-bins"
+            },
+            {
+                "type": "browser",
+                "url": "https://www.twilio.com/docs/runtime"
+            },
+            {
+                "type": "browser",
+                "url": "https://www.twilio.com/docs/runtime/functions-assets-api/api/understanding-visibility-public-private-and-protected-functions-and-assets"
+            },
+            {
+                "type": "browser",
+                "url": "https://www.twilio.com/docs/studio"
+            }
+        ]
+    },
+    "727c371": {
+        "name": "Superclass: Programmable Voice",
+        "description": "Find all relevant resources from the workshop",
+        "items": [{
+                "type": "browser",
+                "url": "https://signal.twilio.com/2021/sessions/666941"
+            },
+            {
+                "type": "browser",
+                "url": "https://docs.google.com/presentation/d/1aUmbCrGB_oG_vPUPIxl9FKOi9ixWXIU0nxOZUIeaaYo/edit?usp=sharing"
+            },
+            {
+                "type": "browser",
+                "url": "https://github.com/bld010/SIGNAL2021-Superclass-Programmable-Voice"
+            },
+            {
+                "type": "browser",
+                "url": "https://signal.twilio.com/sessions?productFamily=Voice"
+            },
+            {
+                "type": "browser",
+                "url": "https://www.twilio.com/code-exchange?q=&f=voice"
+            },
+            {
+                "type": "browser",
+                "url": "https://www.twilio.com/docs/tutorials?filter-product=Voice"
+            }
+        ]
+    },
+    "a3e31a7": {
+        "name": "Superclass: Programmatic Email with Twilio SendGrid",
+        "description": "Find all relevant resources from the workshop",
+        "items": [{
+                "type": "browser",
+                "url": "https://signal.twilio.com/2021/sessions/666952"
+            },
+            {
+                "type": "browser",
+                "url": "https://github.com/TwilioDevEd/signal_superclass_2021_sendgrid"
+            },
+            {
+                "type": "browser",
+                "url": "https://signal.twilio.com/sessions?productFamily=Email"
+            }
+        ]
+    },
+    "3e87cff": {
+        "name": "Superclass: Build a custom CDP solution with Twilio Segment",
+        "description": "Find all relevant resources from the workshop",
+        "items": [{
+                "type": "browser",
+                "url": "https://signal.twilio.com/2021/sessions/666749"
+            },
+            {
+                "type": "browser",
+                "url": "https://segment.com/twilio-developer-plan/"
+            },
+            {
+                "type": "browser",
+                "url": "https://gist.github.com/misteryeo/e17f2bd7cc4cd92b9f5e0a586c3a5706"
+            },
+            {
+                "type": "browser",
+                "url": "https://signal-ecommerce-site.vercel.app/"
+            },
+            {
+                "type": "browser",
+                "url": "https://gist.github.com/tysonmote/6169492b0f10c58d5965e7cb686df1e8"
+            }
+        ]
+    },
+    "8825cf5": {
+        "name": "Superclass: Building Telehealth with Twilio",
+        "description": "Find all relevant resources from the workshop",
+        "items": [{
+                "type": "browser",
+                "url": "https://signal.twilio.com/2021/sessions/666955"
+            },
+            {
+                "type": "browser",
+                "url": "https://github.com/TwilioDevEd/telehealth-video-workshop#prerequisites"
+            },
+            {
+                "type": "browser",
+                "url": "https://console.twilio.com/us1/billing/manage-billing/billing-overview"
+            },
+            {
+                "type": "browser",
+                "url": "https://signal.twilio.com/sessions?industry=HealthcareAndLifeSciences"
+            },
+            {
+                "type": "browser",
+                "url": "https://www.twilio.com/code-exchange?q=&f=social_impact"
+            },
+            {
+                "type": "browser",
+                "url": "https://www.twilio.com/code-exchange?q=&f=video"
+            }
+        ]
+    },
+    "c7a0636": {
+        "name": "Superclass: Developing a contact center with Twilio Flex",
+        "description": "Find all relevant resources from the workshop",
+        "items": [{
+                "type": "browser",
+                "url": "https://signal.twilio.com/2021/sessions/666948"
+            },
+            {
+                "type": "browser",
+                "url": "https://signal.twilio.com/sessions?productFamily=Flex"
+            },
+            {
+                "type": "browser",
+                "url": "https://www.twilio.com/code-exchange?q=&f=flex"
+            },
+            {
+                "type": "browser",
+                "url": "https://www.twilio.com/docs/flex"
+            },
+            {
+                "type": "browser",
+                "url": "https://twilio.learnupon.com/store"
+            }
+        ]
+    },
+    "d154440": {
+        "name": "Superclass: No code? No problem! Launch a verified broadcast SMS app in 5 minutes with Twilio Quick Deploy",
+        "description": "Find all relevant resources from the workshop",
+        "items": [{
+                "type": "browser",
+                "url": "https://signal.twilio.com/2021/sessions/692261"
+            },
+            {
+                "type": "browser",
+                "url": "https://signal.twilio.com/sessions?productFamily=AccountSecurity"
+            },
+            {
+                "type": "browser",
+                "url": "https://www.twilio.com/code-exchange/verified-broadcast-sms"
+            },
+            {
+                "type": "browser",
+                "url": "https://www.twilio.com/blog/verified-sms-broadcast-service-low-code"
+            },
+            {
+                "type": "browser",
+                "url": "https://www.twilio.com/code-exchange?q=&f=verify"
+            }
+        ]
+    },
+    "e7190d7": {
+        "name": "Superclass: Programmable Video",
+        "description": "Find all relevant resources from the workshop",
+        "items": [{
+                "type": "browser",
+                "url": "https://signal.twilio.com/2021/sessions/666943"
+            },
+            {
+                "type": "browser",
+                "url": "https://signal.twilio.com/sessions?productFamily=Video"
+            },
+            {
+                "type": "browser",
+                "url": "https://www.twilio.com/code-exchange?q=&f=video"
+            }
+        ]
+    },
+    "0f021e0": {
+        "name": "Superclass: Programmable Messaging",
+        "description": "Find all relevant resources from the workshop",
+        "items": [{
+                "type": "browser",
+                "url": "https://signal.twilio.com/2021/sessions/664986"
+            },
+            {
+                "type": "browser",
+                "url": "https://www.twilio.com/docs/sms/api/message-resource"
+            },
+            {
+                "type": "browser",
+                "url": "http://twil.io/cli"
+            },
+            {
+                "type": "browser",
+                "url": "https://www.twilio.com/docs/messaging/guides/best-practices-at-scale"
+            },
+            {
+                "type": "browser",
+                "url": "https://signal.twilio.com/sessions?productFamily=Messaging"
+            },
+            {
+                "type": "browser",
+                "url": "https://www.twilio.com/code-exchange?q=&f=sms&f=whatsapp"
+            },
+            {
+                "type": "browser",
+                "url": "https://www.twilio.com/docs/tutorials?filter-product=SMS"
+            }
+        ]
+    }
+  }
+}

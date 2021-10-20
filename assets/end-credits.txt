@@ -1,0 +1,273 @@
+art >
+art >
+art >                         __________
+art >                  ______/ ======== \______ 
+art >            .——. |....... ________ .......| .——. 
+art >           /    \|_______/        \_______|/    \
+art >          /      |:                      :|      \
+art >          \      |:       ________       :|      / 
+art >           \     |:______/ ______ \______:|     / 
+art >            \    |:                      :|    / 
+art >             \   |:                      :|   / 
+art >              \__|:______________________:|__/ 
+art >                 |:                      :|
+art >                  \____  _________  _____/
+art >                   \:::\___________/:::_/
+art >                    \_:::         :::_/ 
+art >                      \_:::::::::::_/ 
+art >                        \_________/ 
+/art
+
+[10.20.21] {yellowBright health.log} {cyanBright This production: abided by all CDC, state, and local health guidelines.}
+
+[10.20.21] {yellowBright health.log} {cyanBright Proof of COVID-19 vaccination was required for all presenters, cast, and crew.}
+
+[10.20.21] {yellowBright health.log} {cyanBright Social distancing: was practiced at all times.}
+
+[10.20.21] {yellowBright health.log} {cyanBright Mask wearing: except for on-screen talent at the time of filming — was mandated and monitored.}
+
+dramaticPause
+command >And now a shoutout to everyone who made this year’s SIGNAL possible
+dramaticPause 2000
+command >credits.log --tail
+dramaticPause 2000
+
+art >                         ..-----..
+art >                   _____/ |`````| \_____
+art >                  /     | |     | |     \
+art >                 /      |__\   /__|      \
+art >                /     /     \ /     \     \
+art >               /   | /      [|       \ |   \
+art >              /    |/  (::)  |        \|    \
+art >             :   \``|        |        |``/   :
+art >             |    \`|        |        |`/    |
+art >             |    \ |        |        | /    |
+art >             |  --\ |        |        | /    |
+art >             |    | | ..     |     .. | |    |
+art >             |    | | |      |      | | |    |
+art >             |   \| | |      |      | | |/   |
+art >             |    | | |      |      | | |    |
+art >             |    | |        |        | |    |
+art >              |```| |```````[|````````| |```|
+art >              |___| |_______/_\_______| |___|
+/art
+
+[10.20.21] {yellowBright credits.log [A]}  {cyanBright Aaron Olson}
+                            {cyanBright Al Cook}
+                            {cyanBright Alina Rakhmatoullina}
+                            {cyanBright Alison Sadowski}
+                            {cyanBright Alyssa Astrinos}
+                            {cyanBright Andrea Oravec}
+                            {cyanBright Andres Krogh}
+                            {cyanBright Andrew Baker}
+                            {cyanBright Andrew Desbiens}
+                            {cyanBright Angela Branch}
+                            {cyanBright Anne Uekermann}
+                            {cyanBright Anthony Balarkas}
+                            {cyanBright Audrey Kittock}
+
+[10.20.21] {yellowBright credits.log [B]}  {cyanBright Bella Cremer}
+                            {cyanBright Ben Blackmer}
+                            {cyanBright Brenna Hogan}
+                            {cyanBright Brent Schooley}
+                            {cyanBright Brian Partridge}
+                            {cyanBright Brianna DelValle}
+                            {cyanBright Bronwyn Lait}
+
+[10.20.21] {yellowBright credits.log [C]}  {cyanBright Caroline Madsen}
+                            {cyanBright Casey Stegman}
+                            {cyanBright Cassidy Stratton}
+                            {cyanBright Charlene Chang}
+                            {cyanBright Charlene Shuba}
+                            {cyanBright Chelsea Aguirre}
+                            {cyanBright Christina Olszewski}
+                            {cyanBright Corey Weathers}
+                            {cyanBright Craig Dennis}
+
+[10.20.21] {yellowBright credits.log [D]}  {cyanBright Dennis MacNeil}
+                            {cyanBright Diane Woon}
+                            {cyanBright Dominik Kundel }
+
+[10.20.21] {yellowBright credits.log [E]}  {cyanBright Elizabeth Grossenbacher}
+                            {cyanBright Emily Shenfield}
+                            {cyanBright Erin Wong}
+
+[10.20.21] {yellowBright credits.log [G]}  {cyanBright Gabby Targosz}
+                            {cyanBright George Hu}
+                            {cyanBright Geraldine McCabe}
+
+[10.20.21] {yellowBright credits.log [H]}  {cyanBright Harini Rangarajan}
+
+[10.20.21] {yellowBright credits.log [I]}  {cyanBright In-Young Chang}
+                            {cyanBright Isabelle Wautelet}
+
+[10.20.21] {yellowBright credits.log [J]}  {cyanBright Jacob Talbot}
+                            {cyanBright Janani Jayasundar}
+                            {cyanBright Janti Tang}
+                            {cyanBright Jason Yu}
+                            {cyanBright Jeff Biddick}
+                            {cyanBright Jeff Lawson}
+                            {cyanBright Jeni Trinder}
+                            {cyanBright Jennie Janzen}
+                            {cyanBright Jessica Cerami}
+                            {cyanBright Jessy Sweet}
+                            {cyanBright Joanna Roberts}
+                            {cyanBright John Jordan}
+                            {cyanBright Jose Mora}
+                            {cyanBright Justin Pirie}
+yeetMeOuttaHere
+dramaticPause
+command >recursion joke break
+command >recursion_joke.txt --tail
+
+command >Knock knock!
+command >Who’s there?
+command >Recursion
+command >Recursion, who?
+command >Knock knock!
+command >Who’s there?
+command >Recursion
+command >Recursion, who?
+command >Knock knock!
+yeetMeOuttaHere
+command >credits.log --tail --resume
+dramaticPause 2000
+
+[10.20.21] {yellowBright credits.log [K]}  {cyanBright Kaavya Gupta}
+                            {cyanBright Kaitlyn Foley}
+                            {cyanBright Kara Mueller}
+                            {cyanBright Katelyn Frick Miller}
+                            {cyanBright Katherine James}
+                            {cyanBright Khozema Shipchandler}
+                            {cyanBright Kira Lenke}
+                            {cyanBright Kyle Murakami}
+
+[10.20.21] {yellowBright credits.log [L]}  {cyanBright Laura Nicoara}
+                            {cyanBright Leslie Henthorn}
+                            {cyanBright Lupita Uribe}
+                            {cyanBright Lybra Clemons}
+
+[10.20.21] {yellowBright credits.log [M]}  {cyanBright Margaret Staples}
+                            {cyanBright Marietta Bernstein}
+                            {cyanBright Mariko Shimoda}
+                            {cyanBright Matthew Beck}
+                            {cyanBright Megan Speir}
+                            {cyanBright Michelle Glauser}
+                            {cyanBright Monica Ahlers}
+
+[10.20.21] {yellowBright credits.log [N]}  {cyanBright Natalie Blundell}
+                            {cyanBright Natasha Ritz}
+                            {cyanBright Natasha Whitledge}
+                            {cyanBright Nathalie Benchetrit}
+                            {cyanBright Nathaniel Okenwa}
+
+[10.20.21] {yellowBright credits.log [P]}  {cyanBright Pallavi Vanacharla}
+                            {cyanBright Paul Bustamante}
+                            {cyanBright Peter Reinhardt}
+                            {cyanBright Phil Borden}
+
+[10.20.21] {yellowBright credits.log [R]}  {cyanBright Ray Miller}
+                            {cyanBright Ria Kim}
+                            {cyanBright Ricky Robinett}
+
+[10.20.21] {yellowBright credits.log [S]}  {cyanBright Sam McEvans}
+                            {cyanBright Samantha Stephey}
+                            {cyanBright Sang Seo}
+                            {cyanBright Sara Bell}
+                            {cyanBright Sara Varni}
+                            {cyanBright Sateja Parulekar}
+                            {cyanBright Sean McBride}
+                            {cyanBright Serena Wales}
+                            {cyanBright Shantel Byrd}
+                            {cyanBright Shawn Stern}
+                            {cyanBright Soumya Srinagesh}
+                            {cyanBright Steph Moorhead}
+                            {cyanBright Steve Schuler}
+                            {cyanBright Su-Ren Neo}
+
+[10.20.21] {yellowBright credits.log [T]}  {cyanBright Theresa Vu}
+                            {cyanBright Tiffany Kulkarni}
+                            {cyanBright Timothy Schraeder}
+                            {cyanBright Tori Kistner}
+                            {cyanBright Tracy Hill}
+                            {cyanBright Tricia Miller}
+
+[10.20.21] {yellowBright credits.log [U]}  {cyanBright Umair Akeel}
+
+[10.20.21] {yellowBright credits.log [V]}  {cyanBright Vanessa Thompson}
+
+[10.20.21] {yellowBright credits.log [W]}  {cyanBright Wade Catron}
+
+[10.20.21] {yellowBright credits.log [Y]}  {cyanBright Yoshi Tamura}
+
+dramaticPause
+command >thank_yous.log --tail
+
+art >
+art >
+art >              ___________________________________
+art >             |                                   |\
+art >             |                                   | \
+art >             |     ________ _____   _  ____ __   |  \
+art >             |    /_  __/ // / _ | / |/ / //_/   |   \
+art >             |     / / / _  / __ |/    / ,<      |    \
+art >             |    /_/ /_//_/_/ |_/_/|_/_/|_|     |     \
+art >             |     \ \/ / __ \/ / / / /          |      \
+art >             |      \  / /_/ / /_/ /_/           |       \
+art >             |      /_/\____/\____(_)            |________\
+art >             |                                   |
+art >             |                                   |
+art >             |___________________________________|
+art >
+art >
+/art
+
+[10.20.21] {yellowBright thank.you} {cyanBright Special thank you to Sir Patrick Stewart. We hope you find that sock. }
+
+[10.20.21] {yellowBright thank.you} {cyanBright Thank you to our wonderful and amazing sponsors.}
+
+[10.20.21] {yellowBright thank.you} {cyanBright Thank you to the thousands of Twilions without whom this event would not have been possible. }
+
+dramaticPause
+command >No animals were harmed in the making of this event. 
+command >But several cats had to be stopped from walking on keyboardsssszdojljfk]l[gokldk;knnj
+command >segfault
+
+dramaticPause
+command >We hope you’ve enjoyed this year’s SIGNAL.
+command >And we hope that — wherever you are in the world — you remain safe and healthy. 
+
+dramaticPause
+command >We look forward to seeing you next year. 
+
+dramaticPause
+command >In the meantime…
+dramaticPause
+
+art   #     # #####    ####   #   #   # #####   #     #   #   ### #####
+art   #  #  # #       #      # #  ##  #   #     #  #  #  # #   #    #
+art   #  #  # ###     #     #   # # # #   #     #  #  # #   #  #    #
+art   #  #  # #       #     ##### #  ##   #     #  #  # #####  #    #
+art    ## ##  #####    #### #   # #   #   #      ## ##  #   # ###   #
+art  
+art   #####  ####     #####  ##### #####   #     # #    #   #   #####
+art     #   #    #   #       #     #       #  #  # #    #  # #   #
+art     #   #    #    #####  ###   ###     #  #  # ###### #   #  #
+art     #   #    #         # #     #       #  #  # #    # #####  #
+art     #    ####     #####  ##### #####    ## ##  #    # #   #  #
+art  
+art   #   #  ####  #    #    #####  #    # ### #     #####  ###
+art    # #  #    # #    #    #    # #    #  #  #     #    # ###
+art     #   #    # #    #    #####  #    #  #  #     #    #  #
+art     #   #    # #    #    #    # #    #  #  #     #    #
+art {magentaBright     #    ####   ####     #####   ####  ### ##### #####}  {yellowBright (::)}
+art 
+/art
+dramaticPause 4000
+clear
+vCenterText >In loving memory of Neeraj Chandra
+hideCursor
+dramaticPause 4000
+clear
+totalCenter (::)
+dramaticPause 4000

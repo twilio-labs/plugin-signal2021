@@ -1,0 +1,735 @@
+{
+	"demos": {
+		"code-exchange": {
+			"name": "CodeExchange",
+			"products": [
+				"all"
+			],
+			"description": "Get started with code samples for common Twilio use cases.",
+			"options": [],
+			"codeexchange_link": "https://www.twilio.com/code-exchange",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"developer-session-demo": {
+			"name": "Developer Spotlight Session Demo",
+			"products": [
+				"Notify",
+				"Verify",
+				"Functions",
+				"Segment"
+			],
+			"description": "The full demo application from the Developer Spotlight Session",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio/signal2021-devs"
+				}
+			],
+			"codeexchange_link": null,
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"basic-sms-autoresponse": {
+			"name": "Basic SMS Auto-Response",
+			"products": [
+				"SMS"
+			],
+			"description": "A basic Twilio Messaging TwiML template Function that will return TwiML to message \"Hello World\"",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": null,
+					"functions_link": "https://github.com/twilio-labs/function-templates/tree/main/hello-messaging"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/basic-sms-auto-response?q=signal2021",
+			"quick_deploy_link": "https://www.twilio.com/code-exchange/basic-sms-auto-response?language=functions&q=signal2021",
+			"is_community": false
+		},
+		"basic-voice-autoresponse": {
+			"name": "Basic Call Auto-Response",
+			"products": [
+				"Voice"
+			],
+			"description": "A basic Twilio Messaging TwiML template Function that will return TwiML to say \"Hello World\"",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": null,
+					"functions_link": "https://github.com/twilio-labs/function-templates/tree/main/hello-voice"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/basic-voice-auto-response?q=signal2021",
+			"quick_deploy_link": "https://www.twilio.com/code-exchange/basic-voice-auto-response?language=functions&q=signal2021",
+			"is_community": false
+		},
+		"basic-video-chat": {
+			"name": "Basic Basic Video Chat",
+			"products": [
+				"Video"
+			],
+			"description": "Build a live video conference app with a basic UI",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": null,
+					"functions_link": "https://github.com/twilio-labs/function-templates/tree/main/video"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/basic-video-chat?q=signal2021",
+			"quick_deploy_link": "https://www.twilio.com/code-exchange/basic-video-chat?language=functions&q=signal2021",
+			"is_community": false
+		},
+		"virtual-medical-visits": {
+			"name": "Virtual Medical Visits",
+			"products": [
+				"Video",
+				"Chat"
+			],
+			"description": "A telemedicine app that will enable video 1:1s, as well as guidance to build screen annotation during calls and send appointment reminders.",
+			"options": [
+				{
+					"language": "Swift",
+					"repo_link": "https://github.com/twilio/twilio-video-app-ios"
+				},
+				{
+					"language": "Android",
+					"repo_link": "https://github.com/twilio/twilio-video-app-android"
+				},
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio/twilio-video-app-react"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/virtual-medical-visits?q=signal2021",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"twilioquest-extensions": {
+			"name": "TwilioQuest Extensions",
+			"products": [
+				"TwilioQuest"
+			],
+			"description": "Add your own content to TwilioQuest with custom extensions.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/TwilioQuest/twilioquest-extension-template"
+				}
+			],
+			"codeexchange_link": null,
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"talon1": {
+			"name": "Talon 1 Submission",
+			"products": [],
+			"description": "Submit your own code to run at the edge of space as part of the Talon 1 mission.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/TwilioQuest/talon"
+				}
+			],
+			"codeexchange_link": null,
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"virtual-classroom": {
+			"name": "Virtual Classroom",
+			"products": [
+				"Video",
+				"SMS"
+			],
+			"description": "Build an app to enable robust virtual classroom time between teachers and students.",
+			"options": [
+				{
+					"language": "Java",
+					"repo_link": "https://github.com/twilio/twilio-video-app-android"
+				},
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio/twilio-video-app-react"
+				},
+				{
+					"language": "Swift",
+					"repo_link": "https://github.com/twilio/twilio-video-app-ios"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/virtual-classroom?q=signal2021",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"broadcast-sms-messages-to-subscribers": {
+			"name": "Broadcast SMS Messages to Subscribers",
+			"products": [
+				"Notify"
+			],
+			"description": "Use a Twilio Notify service to subscribe users and broadcast messages to them",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": null,
+					"functions_link": "https://github.com/twilio-labs/function-templates/tree/main/sms-broadcast"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/broadcast-sms-messages-to-subscribers?q=signal2021",
+			"quick_deploy_link": "https://www.twilio.com/code-exchange/broadcast-sms-messages-to-subscribers?q=signal2021&language=functions",
+			"is_community": false
+		},
+		"trigger-sms-based-on-segment-events": {
+			"name": "Trigger SMS based on Segment Events",
+			"products": [
+				"Segment"
+			],
+			"description": "Sends an SMS when your Segment-enabled website generates a specific tracking event.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": null,
+					"functions_link": "https://github.com/twilio-labs/function-templates/tree/main/segment-event-notification"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/trigger-sms-based-on-segment-events?q=signal2021",
+			"quick_deploy_link": "https://www.twilio.com/code-exchange/trigger-sms-based-on-segment-events?q=signal2021&language=functions",
+			"is_community": false
+		},
+		"verified-broadcast-sms": {
+			"name": "Broadcast SMS with Verified Sign up",
+			"products": [
+				"Verify",
+				"Notify"
+			],
+			"description": "Broadcast messages to verified subscribers from a web application dashboard.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": null,
+					"functions_link": "https://github.com/twilio-labs/function-templates/tree/main/verified-broadcast"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/verified-broadcast-sms?q=signal2021",
+			"quick_deploy_link": "https://www.twilio.com/code-exchange/verified-broadcast-sms?q=signal2021&language=functions",
+			"is_community": false
+		},
+		"verify-push-backend": {
+			"name": "Verify Push Sample Backend",
+			"products": [
+				"Verify"
+			],
+			"description": "Issue access tokens and create push challenges from this helpful app and dashboard.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": null,
+					"functions_link": "https://github.com/twilio-labs/function-templates/tree/main/verify-push-backend"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/verify-push-backend?q=signal2021",
+			"quick_deploy_link": "https://www.twilio.com/code-exchange/verify-push-backend?q=signal2021&language=functions",
+			"is_community": false
+		},
+		"international-telephone-input": {
+			"name": "International Telephone Input Validation",
+			"products": [
+				"Lookup"
+			],
+			"description": "International telephone input form field and phone number validation with Twilio Lookup.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": null,
+					"functions_link": "https://github.com/twilio-labs/function-templates/tree/main/international-telephone-input"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/international-telephone-input?q=signal2021",
+			"quick_deploy_link": "https://www.twilio.com/code-exchange/international-telephone-input?q=signal2021&language=functions",
+			"is_community": false
+		},
+		"sms-verification-retry-logic-voice-fallback": {
+			"name": "SMS verification with retry logic and voice fallback",
+			"products": [
+				"Verify"
+			],
+			"description": "Best practices UI for resending SMS verification codes and voice channel fallback",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": null,
+					"functions_link": "https://github.com/twilio-labs/function-templates/tree/main/verify-retry"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/sms-verification-retry-logic-voice-fallback?q=signal2021",
+			"quick_deploy_link": "https://www.twilio.com/code-exchange/sms-verification-retry-logic-voice-fallback?q=signal2021&language=functions",
+			"is_community": false
+		},
+		"covid-19-vaccine-hesitancy-chatbot": {
+			"name": "COVID-19 Vaccine Hesitancy Chatbot",
+			"products": [
+				"Studio"
+			],
+			"description": "Address COVID-19 vaccine hesitancy among consumers and answer their vaccine-related questions through an SMS chatbot",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": null,
+					"functions_link": "https://github.com/twilio-labs/function-templates/tree/main/vaccine-standby"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/covid-19-vaccine-hesitancy-chatbot?q=signal2021",
+			"quick_deploy_link": "https://www.twilio.com/code-exchange/covid-19-vaccine-hesitancy-chatbot?q=signal2021&language=functions",
+			"is_community": false
+		},
+		"one-time-passcode-verification-otp": {
+			"name": "One-Time Passcode Verification (OTP)",
+			"products": [
+				"Verify"
+			],
+			"description": "Start and check one-time passcodes sent via SMS or Voice",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": null,
+					"functions_link": "https://github.com/twilio-labs/function-templates/tree/main/verify"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/one-time-passcode-verification-otp?q=signal2021",
+			"quick_deploy_link": "https://www.twilio.com/code-exchange/one-time-passcode-verification-otp?q=signal2021&language=functions",
+			"is_community": false
+		},
+		"sendgrid-email-events": {
+			"name": "SendGrid Email Events",
+			"products": [
+				"SendGrid"
+			],
+			"description": "Send and track the status of your emails. Get SMS notifications for opened emails.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio-labs/sample-sendgrid-email-events-nodejs"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/sendgrid-email-events?q=signal2021",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"flex-auto-responses": {
+			"name": "Auto-Responses",
+			"products": [
+				"Flex"
+			],
+			"description": "Enable auto response for your agents and enable them to use canned responses in your Flex call center.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio-labs/plugin-agent-autoresponse"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/preset-and-auto-responses-flex?q=signal2021",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"sms-support-chatbot": {
+			"name": "SMS Support Chatbot using Autopilot",
+			"products": [
+				"Autopilot",
+				"SMS"
+			],
+			"description": "Uses AI to interpret a user's incoming texts, and responds accordingly with the correct support.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio-labs/sample-autopilot-support-bot"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/sms-support-chatbot-using-autopilot?q=signal2021",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"sms-notifications": {
+			"name": "SMS Notifications",
+			"products": [
+				"SMS"
+			],
+			"description": "Automate a workflow through an example that mimics a vacation rental website where a host can notify guests of a reservation via text message.",
+			"options": [
+				{
+					"language": ".NET",
+					"repo_link": "https://github.com/TwilioDevEd/airtng-csharp"
+				},
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/TwilioDevEd/airtng-node"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/sms-notifications?q=signal2021",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"connect-volunteers": {
+			"name": "Connect Volunteers through SMS",
+			"products": [
+				"WhatsApp",
+				"SMS"
+			],
+			"description": "Application built to connect volunteers during COVID-19 through SMS & WhatsApp Bot.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/quarantineaid/quarantineaid-backend"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/connect-volunteers-through-sms?q=signal2021",
+			"quick_deploy_link": null,
+			"is_community": true
+		},
+		"code-exchange-covid": {
+			"name": "CodeExchange COVID-19 Response Samples",
+			"products": [
+				"all"
+			],
+			"description": "Get started with code samples for common Twilio & COVID-19 use cases.",
+			"options": [],
+			"codeexchange_link": "https://www.twilio.com/code-exchange?q=covid",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"sourdio": {
+			"name": "IoT Monitoring for Sourdough Starter",
+			"products": [
+				"IoT"
+			],
+			"description": "Uses Twilio's Narrowband IoT Developer Kit to provide data monitoring of your sourdough starter's temperature, humidity, and rise.",
+			"options": [
+				{
+					"language": "C++",
+					"repo_link": "https://github.com/twilio/sourd.io"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/iot-monitoring-sourdough-starter?q=signal2021",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"code-exchange-video": {
+			"name": "CodeExchange Video Samples",
+			"products": [
+				"Video"
+			],
+			"description": "Get started with code samples for common Twilio Video use cases.",
+			"options": [],
+			"codeexchange_link": "https://www.twilio.com/code-exchange?q=&f=video",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"code-exchange-flex": {
+			"name": "CodeExchange Flex Samples",
+			"products": [
+				"Flex"
+			],
+			"description": "Get started with code samples for common Twilio Flex use cases.",
+			"options": [],
+			"codeexchange_link": "https://www.twilio.com/code-exchange?q=&f=flex",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"ai-chatbot": {
+			"name": "Informational AI Chatbot",
+			"products": [
+				"Autopilot"
+			],
+			"description": "Chatbot that uses Autopilot AI to provide custom information to users about COVID-19 pandemic. Customize based on data relevant to your users.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/codeAdrian/homeBound"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/informational-ai-chatbot?q=signal2021",
+			"quick_deploy_link": null,
+			"is_community": true
+		},
+		"contactless-payment": {
+			"name": "Contactless Mobile Payment SMS via Stripe",
+			"products": [
+				"SMS"
+			],
+			"description": "Send payment links to people via SMS using Stripe",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": null,
+					"functions_link": "https://github.com/twilio-labs/function-templates/tree/main/stripe-payment-link-sms"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/mobile-payment-sms-stripe?q=signal2021",
+			"quick_deploy_link": "https://www.twilio.com/code-exchange/mobile-payment-sms-stripe?language=functions&q=signal2021",
+			"is_community": true
+		},
+		"appointment-reminders": {
+			"name": "Appointment Reminders via SMS",
+			"products": [
+				"SMS"
+			],
+			"description": "Remind your customers of upcoming appointments using text messages",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio-labs/sample-appointment-reminders-node"
+				},
+				{
+					"language": "Python",
+					"repo_link": "https://github.com/TwilioDevEd/appointment-reminders-django#next"
+				},
+				{
+					"language": "Java",
+					"repo_link": "https://github.com/TwilioDevEd/appointment-reminders-java#next"
+				},
+				{
+					"language": "PHP",
+					"repo_link": "https://github.com/TwilioDevEd/appointment-reminders-laravel#next"
+				},
+				{
+					"language": "Ruby",
+					"repo_link": "https://github.com/TwilioDevEd/appointment-reminders-rails#next"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/appointment-reminders-sms?q=signal2021",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"whatsapp-sessions": {
+			"name": "WhatsApp Bot with Session Management & Group Messages",
+			"products": [
+				"WhatsApp"
+			],
+			"description": "Maintain state in WhatsApp bot conversations and relay messages from others",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/VladimirMikulic/sms-gaming"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/whatsapp-session-bot?q=signal2021",
+			"quick_deploy_link": null,
+			"is_community": true
+		},
+		"video-collab-education": {
+			"name": "Virtual Collaboration and Education",
+			"products": [
+				"WhatsApp"
+			],
+			"description": "Web application that shares content from a host's computer to one or more remote users over the internet. Includes whiteboarding, screen sharing, chat, and annotation.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/Godwin9911/stream-my-pc"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/virtual-collaboration-and-education?q=signal2021",
+			"quick_deploy_link": null,
+			"is_community": true
+		},
+		"video-collab": {
+			"name": "Video Collaboration",
+			"products": [
+				"Video"
+			],
+			"description": "Build and deploy a video collaboration app in minutes on the web, iOS, and Android",
+			"options": [
+				{
+					"language": "Swift",
+					"repo_link": "https://github.com/twilio/twilio-video-app-ios"
+				},
+				{
+					"language": "Android",
+					"repo_link": "https://github.com/twilio/twilio-video-app-android"
+				},
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio/twilio-video-app-react"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/video-collaboration?q=signal2021",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"customer-auth-plugin": {
+			"name": "Customer Authentication Flex Plugin",
+			"products": [
+				"Flex",
+				"Verify"
+			],
+			"description": "Use this Flex plugin so agents can authenticate customers with SMS one-time passcodes.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio-labs/plugin-verify"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/verify-flex-plugin?q=signal2021",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"agent-notes-plugin": {
+			"name": "Agent Notes Flex Plugin",
+			"products": [
+				"Flex"
+			],
+			"description": "Use this Flex plugin to enable your agents to take notes when they are on-call or chatting with a customer.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio-labs/plugin-agent-notes"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/agent-notes-flex-plugin?q=signal2021",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"voice-ivr": {
+			"name": "Basic IVR",
+			"products": [
+				"Voice",
+				"SMS"
+			],
+			"description": "An app that sets up a basic IVR (phone tree) that gives callers information based on the options they choose.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": null,
+					"functions_link": "https://github.com/twilio-labs/function-templates/tree/main/voice-ivr"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/basic-ivr?q=signal2021",
+			"quick_deploy_link": "https://www.twilio.com/code-exchange/basic-ivr?q=signal2021&language=functions",
+			"is_community": false
+		},
+		"code-exchange-email": {
+			"name": "CodeExchange Email Samples",
+			"products": [
+				"sendgrid"
+			],
+			"description": "Get started with code samples for common Twilio SendGrid Email use cases.",
+			"options": [],
+			"codeexchange_link": "https://www.twilio.com/code-exchange?q=&f=email",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"code-exchange-msg": {
+			"name": "CodeExchange Messaging Samples",
+			"products": [
+				"SMS",
+				"WhatsApp"
+			],
+			"description": "Get started with code samples for common Programmable Messaging use cases.",
+			"options": [],
+			"codeexchange_link": "https://www.twilio.com/code-exchange?q=&f=sms&f=whatsapp",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"omnichannel-notifications": {
+			"name": "Omnichannel Notifications",
+			"products": [
+				"sendgrid",
+				"SMS"
+			],
+			"description": "Enable users to select notification preference (Email or SMS), and notify them accordingly",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio-labs/sample-preference-center"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/omnichannel-notifications?q=signal2021",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"email-verification": {
+			"name": "One-click Email Verification with \"Magic Links\"",
+			"products": [
+				"sendgrid",
+				"Verify"
+			],
+			"description": "This app will show you an example of how to build one-click email verification using the\u00a0Twilio Verify API and Twilio SendGrid API.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": null,
+					"functions_link": "https://github.com/twilio-labs/function-templates/tree/main/magic-links"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/one-click-email-verification-magic-links?q=signal2021",
+			"quick_deploy_link": "https://www.twilio.com/code-exchange/one-click-email-verification-magic-links?language=functions&q=signal2021",
+			"is_community": false
+		},
+		"anonymous-conversations": {
+			"name": "Anonymous SMS Conversation",
+			"products": [
+				"SMS"
+			],
+			"description": "Enable parties to send text messages to each other anonymously without sharing their personal number.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio-labs/sample-conversations-masked-numbers"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/anonymous-sms-conversation?q=signal2021",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"pay-over-phone": {
+			"name": "Process Payments via Phone Call",
+			"products": [
+				"Voice"
+			],
+			"description": "Enable a caller to make a secure purchase during a voice call even when in public, using phone-based entry to input sensitive data.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio-labs/sample-pay-service"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/secure-payments-over-phone?q=signal2021",
+			"quick_deploy_link": false,
+			"is_community": false
+		},
+		"sms-phone-verification": {
+			"name": "SMS Phone Verification",
+			"products": [
+				"Verify"
+			],
+			"description": "Basic SMS phone verification (2FA) example using Twilio Verify",
+			"options": [
+				{
+					"language": "Ruby",
+					"repo_link": "https://github.com/TwilioDevEd/verify-v2-quickstart-rails#next"
+				},
+				{
+					"language": "Python",
+					"repo_link": "https://github.com/TwilioDevEd/verify-v2-quickstart-python#next"
+				},
+				{
+					"language": ".NET",
+					"repo_link": "https://github.com/TwilioDevEd/verify-v2-quickstart-csharp#next"
+				},
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/TwilioDevEd/verify-v2-quickstart-node#next"
+				},
+				{
+					"language": "PHP",
+					"repo_link": "https://github.com/TwilioDevEd/verify-v2-quickstart-php#next"
+				},
+				{
+					"language": "Java",
+					"repo_link": "https://github.com/TwilioDevEd/verify-v2-quickstart-java#next"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/sms-phone-verification?q=signal2021",
+			"quick_deploy_link": null,
+			"is_community": false
+		}
+	}
+}
