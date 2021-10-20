@@ -49,6 +49,9 @@ export function useSyncClient(feature: SyncAccessTokenInputs['feature']) {
           client.on('connectionError', (connectionError) => {
             console.debug('Connection error: ', connectionError.message);
             setError(connectionError);
+            client?.shutdown()?.finally(() => {
+              setSyncClient(undefined);
+            });
           });
           client.on(
             'connectionStateChange',
@@ -59,7 +62,9 @@ export function useSyncClient(feature: SyncAccessTokenInputs['feature']) {
                 newState === 'denied' ||
                 newState === 'error'
               ) {
-                setSyncClient(undefined);
+                client?.shutdown()?.finally(() => {
+                  setSyncClient(undefined);
+                });
               }
             }
           );
@@ -80,7 +85,7 @@ export function useSyncClient(feature: SyncAccessTokenInputs['feature']) {
         syncClient &&
         !['connecting', 'disconnected'].includes(syncClient.connectionState)
       ) {
-        syncClient?.shutdown();
+        syncClient.shutdown();
       }
     };
   }, [syncClient, fetchAccessToken, error]);

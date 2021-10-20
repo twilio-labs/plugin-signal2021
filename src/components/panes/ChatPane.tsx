@@ -179,7 +179,7 @@ export const ChatPane = () => {
   const getContent = () => {
     if (loading) return loadingContent;
     if (syncError || chatError) return errorContent;
-    if (isOffline) return offlineContent;
+    if (isOffline && !channelsLoading) return offlineContent;
     return activeContent;
   };
 
