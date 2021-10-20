@@ -49,7 +49,7 @@ export function useChat(syncClient: SyncClient | undefined, user: User) {
   const [activeChannelIndex, setActiveChannelIndex] = useState(0);
   const [messages, setMessages] = useState<Message[]>([]);
   const [messagesLoading, setMessagesLoading] = useState(false);
-  const [channelsLoading, setChannelsLoading] = useState(false);
+  const [channelsLoading, setChannelsLoading] = useState(true);
   const [error, setError] = useState<Error | undefined>();
   const [chatState, setChatState] = useState<ChatState>({
     creators: false,
