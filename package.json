@@ -1,7 +1,7 @@
 {
   "name": "@twilio-labs/plugin-signal2021",
   "description": "Developer Mode for SIGNAL 2021",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Twilio @twilio-labs",
   "bugs": "https://github.com/twilio-labs/plugin-signal2021/issues",
   "publishConfig": {
