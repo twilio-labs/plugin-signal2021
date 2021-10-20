@@ -13,8 +13,10 @@ function extractNormalizedSchedule(data?: SignalTvApiResponse) {
 
   const sessions = [];
 
-  data
-    .filter((entry) => entry.has_cam)
+  const filteredData = data
+    .filter((entry) => entry.has_cam);
+
+  filteredData
     .forEach((entry, index) => {
       const speakers = entry.talent.map((name) => {
         const parts = name.trim().split(' ', 2);
@@ -27,7 +29,7 @@ function extractNormalizedSchedule(data?: SignalTvApiResponse) {
       const startDate = parse(entry.start.toString(), 't', new Date());
       let endDate: Date;
 
-      const nextEntry = data[index + 1];
+      const nextEntry = filteredData[index + 1];
       if (nextEntry) {
         // each session ends whenever the subsequent session begins
         endDate = parse(nextEntry.start.toString(), 't', new Date());
