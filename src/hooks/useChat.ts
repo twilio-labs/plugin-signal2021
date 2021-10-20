@@ -169,6 +169,8 @@ export function useChat(syncClient: SyncClient | undefined, user: User) {
             .sort((a, b) => {
               const { order: aOrder } = groupMap[a.groups[0]];
               const { order: bOrder } = groupMap[b.groups[0]];
+              // Exception, always make the Twilions channel the last channel if it exists
+              if (a.name.toLowerCase().includes('twilion')) return 1;
               return aOrder - bOrder;
             });
 
