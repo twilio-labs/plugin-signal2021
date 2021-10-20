@@ -16,8 +16,6 @@ import {
 } from '../utils/arrayHelpers';
 import { usePrevious } from './usePrevious';
 
-const INITIAL_MESSAGES_COUNT = 50;
-
 export type ItemEvent = { item: SyncListItem };
 
 export const parseMessageItem = ({
@@ -239,12 +237,18 @@ export function useChat(syncClient: SyncClient | undefined, user: User) {
       if (channelItem?.list) {
         setMessagesLoading(true);
         channelItem.list
-          .getItems({ pageSize: INITIAL_MESSAGES_COUNT })
+          .getItems({
+            // Grab from the end of the list so users see latest messages on first load. Needs to be 'desc' order to work
+            from: channelItem.list.lastEventId,
+            order: 'desc',
+          })
           .then(({ items }) => {
-            const initialMessages = items.reduce((acc: Message[], item) => {
-              const message = parseMessageItem(item);
-              return message.visible ? acc.concat(message) : acc;
-            }, []);
+            const initialMessages = items
+              .reduce((acc: Message[], item) => {
+                const message = parseMessageItem(item);
+                return message.visible ? acc.concat(message) : acc;
+              }, [])
+              .reverse();
 
             setMessages(initialMessages);
             setUserChannels(markReadState(channelItem.name, false));
