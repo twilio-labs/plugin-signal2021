@@ -471,6 +471,16 @@
           "url": "https://www.twilio.com/docs/tutorials?filter-product=SMS"
         }
       ]
+    },
+    "f1fdf7": {
+      "name": "Example Hash",
+      "description": "We know this is supposed to be 7-characters but typos happen. Enjoy SIGNAL!",
+      "items": [
+        {
+          "type": "browser",
+          "url": "https://twil.io/signal2021-devs"
+        }
+      ]
     }
   }
 }
