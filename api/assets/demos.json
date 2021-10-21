@@ -26,7 +26,7 @@
 					"repo_link": "https://github.com/twilio/signal2021-devs"
 				}
 			],
-			"codeexchange_link": null,
+			"codeexchange_link": "https://github.com/twilio/signal2021-devs",
 			"quick_deploy_link": null,
 			"is_community": false
 		},
@@ -118,7 +118,7 @@
 					"repo_link": "https://github.com/TwilioQuest/twilioquest-extension-template"
 				}
 			],
-			"codeexchange_link": null,
+			"codeexchange_link": "https://github.com/TwilioQuest/twilioquest-extension-template",
 			"quick_deploy_link": null,
 			"is_community": false
 		},
@@ -132,7 +132,7 @@
 					"repo_link": "https://github.com/TwilioQuest/talon"
 				}
 			],
-			"codeexchange_link": null,
+			"codeexchange_link": "https://github.com/TwilioQuest/talon",
 			"quick_deploy_link": null,
 			"is_community": false
 		},
