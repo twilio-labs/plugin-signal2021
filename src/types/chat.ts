@@ -1,6 +1,12 @@
 import { SyncList } from 'twilio-sync';
 
-export type Role = 'Explorer' | 'Attendee' | 'Creator' | 'Employee' | 'Sponsor';
+export type Role =
+  | 'Explorer'
+  | 'Attendee'
+  | 'Creator'
+  | 'Employee'
+  | 'Sponsor'
+  | 'Twilio Speaker';
 
 export interface MessageData {
   avatar?: string | null;
