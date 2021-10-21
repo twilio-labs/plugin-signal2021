@@ -40,8 +40,10 @@ export function useSyncClient(feature: SyncAccessTokenInputs['feature']) {
           const client = new SyncClient(accessToken);
 
           const fetchNewToken = async () => {
+            setLoading(true);
             const updatedToken = await fetchAccessToken();
             client.updateToken(updatedToken);
+            setLoading(false);
           };
 
           client.on('tokenAboutToExpire', fetchNewToken);

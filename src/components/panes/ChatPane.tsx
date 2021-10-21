@@ -45,7 +45,7 @@ const errorContent = (
   </Text>
 );
 
-const loadingContent = <LoadingIndicator text="Loading SIGNAL Chat..." />;
+const loadingContent = <LoadingIndicator text="Connecting to SIGNAL Chat..." />;
 
 export const ChatPane = () => {
   const { dispatch: modeDispatch } = useMode();
@@ -53,7 +53,7 @@ export const ChatPane = () => {
   const [addMessage] = useMutation<MessageData, AddMessageInput>(
     AddMessageMutation
   );
-  const { error: syncError, loading, syncClient } = useSyncClient(
+  const { error: syncError, loading: syncLoading, syncClient } = useSyncClient(
     'NETWORKING_CHAT'
   );
   const {
@@ -129,7 +129,7 @@ export const ChatPane = () => {
   };
 
   const isActive =
-    !loading &&
+    !syncLoading &&
     !isOffline &&
     !messagesLoading &&
     !channelsLoading &&
@@ -177,7 +177,7 @@ export const ChatPane = () => {
   );
 
   const getContent = () => {
-    if (loading) return loadingContent;
+    if (syncLoading) return loadingContent;
     if (syncError || chatError) return errorContent;
     if (isOffline && !channelsLoading) return offlineContent;
     return activeContent;
