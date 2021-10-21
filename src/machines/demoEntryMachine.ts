@@ -68,6 +68,10 @@ export function hasViewCode(context: DemoEntryMachineContext): boolean {
   );
 }
 
+export function hasLearnMore(context: DemoEntryMachineContext): boolean {
+  return Boolean(context?.demo?.codeexchange_link);
+}
+
 export const demoEntryStateMachine = Machine<
   DemoEntryMachineContext,
   DemoEntryMachineSchema,

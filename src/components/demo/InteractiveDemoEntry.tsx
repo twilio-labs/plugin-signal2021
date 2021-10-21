@@ -6,6 +6,7 @@ import { useTerminalInfo } from '../../hooks/useTerminalInfo';
 import {
   demoEntryStateMachine,
   hasDownload,
+  hasLearnMore,
   hasQuickDeploy,
   hasViewCode,
 } from '../../machines/demoEntryMachine';
@@ -84,6 +85,7 @@ export function InteractiveDemoEntry({
         hasQuickDeploy={hasQuickDeploy(state.context)}
         hasDownloadOption={hasDownload(state.context)}
         hasViewCodeOption={hasViewCode(state.context)}
+        hasLearnMoreOption={hasLearnMore(state.context)}
         selectedOption={state.value.toString()}
       />
     </DemoEntryBox>

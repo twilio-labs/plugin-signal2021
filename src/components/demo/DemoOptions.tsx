@@ -9,20 +9,24 @@ export type DemoOptionsProps = {
   selectedOption: string;
   hasDownloadOption: boolean;
   hasViewCodeOption: boolean;
+  hasLearnMoreOption: boolean;
 };
 export function DemoOptions({
   hasQuickDeploy,
   selectedOption,
   hasDownloadOption,
   hasViewCodeOption,
+  hasLearnMoreOption,
 }: DemoOptionsProps) {
   return (
     <Box justifyContent="flex-start" marginTop={1}>
-      <Box>
-        <Selectable active={selectedOption === DemoEntryOptions.LEARN_MORE}>
-          Learn More
-        </Selectable>
-      </Box>
+      {hasLearnMoreOption && (
+        <Box>
+          <Selectable active={selectedOption === DemoEntryOptions.LEARN_MORE}>
+            Learn More
+          </Selectable>
+        </Box>
+      )}
       {hasViewCodeOption && (
         <>
           <VerticalSpacer />
