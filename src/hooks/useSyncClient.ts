@@ -49,9 +49,7 @@ export function useSyncClient(feature: SyncAccessTokenInputs['feature']) {
           client.on('connectionError', (connectionError) => {
             console.debug('Connection error: ', connectionError.message);
             setError(connectionError);
-            client?.shutdown()?.finally(() => {
-              setSyncClient(undefined);
-            });
+            setSyncClient(undefined);
           });
           client.on(
             'connectionStateChange',
@@ -62,9 +60,7 @@ export function useSyncClient(feature: SyncAccessTokenInputs['feature']) {
                 newState === 'denied' ||
                 newState === 'error'
               ) {
-                client?.shutdown()?.finally(() => {
-                  setSyncClient(undefined);
-                });
+                setSyncClient(undefined);
               }
             }
           );
