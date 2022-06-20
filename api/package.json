@@ -8,7 +8,7 @@
     "deploy": "twilio-run deploy"
   },
   "dependencies": {
-    "got": "^11.7.0"
+    "got": "^11.8.5"
   },
   "devDependencies": {
     "twilio-run": "^2.6.0"
